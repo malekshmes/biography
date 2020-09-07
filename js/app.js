@@ -18,9 +18,9 @@ switch (quesOne) {
     case 'yes':
     case 'y':
         alert('wrong!');
-        break;  
-        default:
-        alert('unrecognized answer')
+        break;
+         default:
+        alert('unrecognized answer');
 }
 
 
@@ -45,7 +45,7 @@ switch (quesTwo) {
         alert('wrong!');
         break;
     default:
-        alert('unrecognized answer')
+        alert('unrecognized answer');
 
 }
 
@@ -69,7 +69,7 @@ switch (quesThree) {
         alert('wrong!');
         break;
     default:
-        alert('unrecognized answer')
+        alert('unrecognized answer');
 
 }
 
@@ -94,7 +94,7 @@ switch (quesFour) {
         alert('wrong!');
         break;
     default:
-        alert('unrecognized answer')
+        alert('unrecognized answer');
 }
 
 
@@ -118,7 +118,7 @@ switch (quesFive) {
         alert('wrong!');
         break;
     default:
-        alert('unrecognized answer')
+        alert('unrecognized answer');
 }
 var userName = prompt('Who are you')
-alert('You are welcome ' + userName + '!')
+alert('You are welcome ' + userName + '!');
