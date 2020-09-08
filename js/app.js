@@ -1,5 +1,7 @@
 'use strict';
 
+var userScore = 0;
+
 var quesOne = prompt('Is my name Shihab?').toLowerCase();
 // if (quesOne === 'no' || quesOne === 'n') {
 //     alert('correct');
@@ -14,12 +16,13 @@ switch (quesOne) {
     case 'no':
     case 'n':
         alert('correct');
+        userScore++;
         break;
     case 'yes':
     case 'y':
         alert('wrong!');
         break;
-         default:
+    default:
         alert('unrecognized answer');
 }
 
@@ -39,6 +42,7 @@ switch (quesTwo) {
     case 'yes':
     case 'y':
         alert('correct');
+        userScore++;
         break;
     case 'no':
     case 'n':
@@ -63,6 +67,7 @@ switch (quesThree) {
     case 'yes':
     case 'y':
         alert('correct');
+        userScore++;
         break;
     case 'no':
     case 'n':
@@ -88,6 +93,7 @@ switch (quesFour) {
     case 'yes':
     case 'y':
         alert('correct');
+        userScore++;
         break;
     case 'no':
     case 'n':
@@ -112,6 +118,7 @@ switch (quesFive) {
     case 'no':
     case 'n':
         alert('correct');
+        userScore++;
         break;
     case 'yes':
     case 'y':
@@ -122,3 +129,88 @@ switch (quesFive) {
 }
 var userName = prompt('Who are you')
 alert('You are welcome ' + userName + '!');
+
+
+
+
+//loop question
+
+var myHeight = prompt('can you guess my height?');
+myHeight = Number(myHeight);
+console.log(myHeight);
+
+for (var i = 0; i < 3; i++) {
+    if (myHeight === 183) {
+        alert('correct')
+        userScore++;
+        break;
+    }
+    else if (myHeight > 183) {
+        alert('too high!');
+        myHeight = prompt('can you guess my height?');
+    } else if (myHeight < 183) {
+        alert('too low!');
+        myHeight = prompt('can you guess my height?');
+    }
+}
+alert('my hight is 183cm');
+
+
+
+
+
+
+
+
+
+//array question
+
+var myHobbies = ['sketching', 'cycling', 'reading', 'running', 'writing'];
+//var userGuess = prompt('can you guess any of my hobbies?').toLowerCase();
+//var userEntries = 1;
+
+for (var count = 1; count <= 6; count++) {
+  var  userGuess = prompt('can you guess any of my hobbies?');
+    for (var arr = 0; arr < myHobbies.length; arr++) {
+        console.log(userGuess);
+        if (userGuess === myHobbies[arr]) {
+            alert('Right ' + userGuess + ' is one of my interests');
+            count = 6;
+            userScore++;
+            break;
+        }
+    }
+
+}
+alert('all possible answers ' + myHobbies );
+
+//score task
+
+alert('your result is ' +userScore+ 'out of 7');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for (var j = 1; j <= 5; j++) {
+
+//     if (userGuess === myHobbies[j]) {
+//         alert('Right' + userGuess + 'is one of my interests');
+//     }
+//     else if (userGuess !== myHobbies[j]) {
+//         alert('you have chances left');
+//     }
+// }
+
+
