@@ -12,19 +12,22 @@ var quesOne = prompt('Is my name Shihab?').toLowerCase();
 // } else { alert('yuor answer is not recognized') }
 
 //Switch statement for quesOne
-switch (quesOne) {
-    case 'no':
-    case 'n':
-        alert('correct');
-        userScore++;
-        break;
-    case 'yes':
-    case 'y':
-        alert('wrong!');
-        break;
-    default:
-        alert('unrecognized answer');
+function quastion1() {
+  switch (quesOne) {
+  case 'no':
+  case 'n':
+    alert('correct');
+    userScore++;
+    break;
+  case 'yes':
+  case 'y':
+    alert('wrong!');
+    break;
+  default:
+    alert('unrecognized answer');
+  }
 }
+quastion1();
 
 
 var quesTwo = prompt('Do I love cars?').toLowerCase();
@@ -38,20 +41,23 @@ var quesTwo = prompt('Do I love cars?').toLowerCase();
 // } else { alert('yuor answer is not recognized') }
 
 //Switch statement for quesTwo
-switch (quesTwo) {
-    case 'yes':
-    case 'y':
-        alert('correct');
-        userScore++;
-        break;
-    case 'no':
-    case 'n':
-        alert('wrong!');
-        break;
-    default:
-        alert('unrecognized answer');
+function quastion2() {
+  switch (quesTwo) {
+  case 'yes':
+  case 'y':
+    alert('correct');
+    userScore++;
+    break;
+  case 'no':
+  case 'n':
+    alert('wrong!');
+    break;
+  default:
+    alert('unrecognized answer');
 
+  }
 }
+quastion2();
 
 var quesThree = prompt('Am I planning to get a bike?').toLowerCase();
 // if (quesThree === 'yes' || quesThree === 'y') {
@@ -63,20 +69,23 @@ var quesThree = prompt('Am I planning to get a bike?').toLowerCase();
 // } else { alert('yuor answer is not recognized') }
 
 //Switch statement for quesThree
-switch (quesThree) {
-    case 'yes':
-    case 'y':
-        alert('correct');
-        userScore++;
-        break;
-    case 'no':
-    case 'n':
-        alert('wrong!');
-        break;
-    default:
-        alert('unrecognized answer');
+function quastion3(){
+  switch (quesThree) {
+  case 'yes':
+  case 'y':
+    alert('correct');
+    userScore++;
+    break;
+  case 'no':
+  case 'n':
+    alert('wrong!');
+    break;
+  default:
+    alert('unrecognized answer');
 
+  }
 }
+quastion3();
 
 
 var quesFour = prompt('Sketching is my hobby?').toLowerCase();
@@ -89,20 +98,22 @@ var quesFour = prompt('Sketching is my hobby?').toLowerCase();
 // } else { alert('yuor answer is not recognized') }
 
 //Switch statement for quesFour
-switch (quesFour) {
-    case 'yes':
-    case 'y':
-        alert('correct');
-        userScore++;
-        break;
-    case 'no':
-    case 'n':
-        alert('wrong!');
-        break;
-    default:
-        alert('unrecognized answer');
+function quastion4(){
+  switch (quesFour) {
+  case 'yes':
+  case 'y':
+    alert('correct');
+    userScore++;
+    break;
+  case 'no':
+  case 'n':
+    alert('wrong!');
+    break;
+  default:
+    alert('unrecognized answer');
+  }
 }
-
+quastion4();
 
 var quesFive = prompt('Am I 30 years old?').toLowerCase();
 // if (quesFive === 'yes' || quesFive === 'y') {
@@ -114,46 +125,52 @@ var quesFive = prompt('Am I 30 years old?').toLowerCase();
 // } else { alert('yuor answer is not recognized') }
 
 //Switch statement for quesFive
-switch (quesFive) {
-    case 'no':
-    case 'n':
-        alert('correct');
-        userScore++;
-        break;
-    case 'yes':
-    case 'y':
-        alert('wrong!');
-        break;
-    default:
-        alert('unrecognized answer');
+function quastion5(){
+  switch (quesFive) {
+  case 'no':
+  case 'n':
+    alert('correct');
+    userScore++;
+    break;
+  case 'yes':
+  case 'y':
+    alert('wrong!');
+    break;
+  default:
+    alert('unrecognized answer');
+  }
 }
-var userName = prompt('Who are you')
+quastion5();
+
+var userName = prompt('Who are you');
 alert('You are welcome ' + userName + '!');
 
 
 
 
 //loop question
+function quastion6(){
+  var myHeight = prompt('can you guess my height?');
+  myHeight = Number(myHeight);
+  console.log(myHeight);
 
-var myHeight = prompt('can you guess my height?');
-myHeight = Number(myHeight);
-console.log(myHeight);
-
-for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < 3; i++) {
     if (myHeight === 183) {
-        alert('correct')
-        userScore++;
-        break;
+      alert('correct');
+      userScore++;
+      break;
     }
     else if (myHeight > 183) {
-        alert('too high!');
-        myHeight = prompt('can you guess my height?');
+      alert('too high!');
+      myHeight = prompt('can you guess my height?');
     } else if (myHeight < 183) {
-        alert('too low!');
-        myHeight = prompt('can you guess my height?');
+      alert('too low!');
+      myHeight = prompt('can you guess my height?');
     }
-}
-alert('my hight is 183cm');
+  }
+  alert('my hight is 183cm');
+} 
+quastion6();
 
 
 
@@ -164,29 +181,32 @@ alert('my hight is 183cm');
 
 
 //array question
+function quastion7(){
 
-var myHobbies = ['sketching', 'cycling', 'reading', 'running', 'writing'];
-//var userGuess = prompt('can you guess any of my hobbies?').toLowerCase();
-//var userEntries = 1;
+  var myHobbies = ['sketching', 'cycling', 'reading', 'running', 'writing'];
+  //var userGuess = prompt('can you guess any of my hobbies?').toLowerCase();
+  //var userEntries = 1;
 
-for (var count = 1; count <= 6; count++) {
-  var  userGuess = prompt('can you guess any of my hobbies?');
+  for (var count = 1; count <= 6; count++) {
+    var userGuess = prompt('can you guess any of my hobbies?');
     for (var arr = 0; arr < myHobbies.length; arr++) {
-        console.log(userGuess);
-        if (userGuess === myHobbies[arr]) {
-            alert('Right ' + userGuess + ' is one of my interests');
-            count = 6;
-            userScore++;
-            break;
-        }
+      console.log(userGuess);
+      if (userGuess === myHobbies[arr]) {
+        alert('Right ' + userGuess + ' is one of my interests');
+        count = 6;
+        userScore++;
+        break;
+      }
     }
 
+  }
+  alert('all possible answers ' + myHobbies);
+
+  //score task
+
+  alert('your result is ' + userScore + 'out of 7');
 }
-alert('all possible answers ' + myHobbies );
-
-//score task
-
-alert('your result is ' +userScore+ 'out of 7');
+quastion7();
 
 
 
