@@ -1,17 +1,19 @@
 
-body{
-    background-color: rgb(180, 211, 221);
-}
+#more {
+    padding-left : 250px;
+   }
 .header{
-    margin-right: 30px;
+    background-color: rgb(230, 230, 230);
+    padding-right: 30px;
     font-size:x-large ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;
 }
 h1{
-    margin-left: 30px;
+    padding-left: 10%;
+    background-color: black;
+    color: white;
     font-style: italic;
-    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     font-weight: 900;
@@ -22,42 +24,65 @@ h1{
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: blueviolet;
     font-size: 40px;
 }
 .intro{
-   
-  
-    margin-left: 0px;
-   
-    margin-right: 50px;
-    font-weight: 25px;
-    background-color: yellowgreen;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    margin-top: 0px;
-    text-align: left;
-    font-size: 30px;
+    
+    font-family: 'News Cycle', sans-serif;
+    font-size: larger;  
+    float: left;
+    margin-left: 50px;    
+    font-weight: 50px;
 }
 #first{
-    margin-bottom: 0%;
-margin-right: 0%;
-padding-left: 50px;
-margin-left: 30px;
-    padding-top: 20px;
+    margin: 0px;
+    padding-left: 50px;
+    padding-top: 0px;
     padding-bottom: 20px;
     font-size: 30px;
-    background-color: rgb(56, 135, 255);
 }
 #top-ten{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+
+    margin-top: 50px;
     font-weight: bold;
-    text-shadow: 10px 5px 5px rgb(71, 120, 255);
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+   
     text-align: center;
 }
 ol{
+    display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-size: 30px;
     font-style: italic;
     text-align: center;
+}
+img{
+    border-radius: 50%;
+    filter: contrast();
+    border-right: 0px;
+    margin-left: 150px;
+    margin-top: 30px;
+    filter: grayscale();
+}
+#back {
+    color: black;
+    text-decoration: none;
+}
+#unrwa {
+    color-adjust:  rgb(0, 146, 243) ;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 146, 243);
+}
+
+#info{
+    margin: 20px 20px 0px 0px;
+}
+#rectangle{
+    height: 72px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 0%;
+
 }

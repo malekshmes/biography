@@ -169,7 +169,7 @@ function quastion6(){
     }
   }
   alert('my hight is 183cm');
-} 
+}
 quastion6();
 
 
@@ -200,7 +200,7 @@ function quastion7(){
     }
   }
 
-  }
+
   alert('all possible answers ' + myHobbies);
 
   //score task
