@@ -1,4 +1,3 @@
-
 #more {
     padding-left : 250px;
    }
@@ -18,6 +17,9 @@ h1{
     font-size: 50px;
     font-weight: 900;
 }
+a{
+    color: black;
+}
 #bike{
    
     margin-right: 50px;
@@ -35,19 +37,12 @@ h1{
     font-weight: 50px;
 }
 #first{
-    margin: 0px;
-    padding-left: 50px;
-    padding-top: 0px;
-    padding-bottom: 20px;
     font-size: 30px;
 }
 #top-ten{
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
-
-    margin-top: 50px;
     font-weight: bold;
     font-size: 30px;
-   
     text-align: center;
 }
 ol{
@@ -66,17 +61,8 @@ img{
     filter: grayscale();
 }
 #back {
-    color: black;
     text-decoration: none;
-}
-#unrwa {
-    color-adjust:  rgb(0, 146, 243) ;
-    text-decoration: none;
-}
-a:hover{
-    color: rgb(0, 146, 243);
-}
-
+   }
 #info{
     margin: 20px 20px 0px 0px;
 }
@@ -84,5 +70,4 @@ a:hover{
     height: 72px;
     background-color: rgb(230, 230, 230);
     margin-bottom: 0%;
-
 }
