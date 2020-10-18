@@ -1,6 +1,9 @@
-
 #more {
-    padding-left : 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 15%;
    }
 .header{
     background-color: rgb(230, 230, 230);
@@ -10,13 +13,19 @@
     text-align: right;
 }
 h1{
-    padding-left: 10%;
     background-color: black;
     color: white;
-    font-style: italic;
+   
+}
+ul h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     font-size: 50px;
     font-weight: 900;
+    padding-left: 5%;
+}
+a{
+    color: black;
 }
 #bike{
    
@@ -35,19 +44,12 @@ h1{
     font-weight: 50px;
 }
 #first{
-    margin: 0px;
-    padding-left: 50px;
-    padding-top: 0px;
-    padding-bottom: 20px;
     font-size: 30px;
 }
 #top-ten{
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
-
-    margin-top: 50px;
     font-weight: bold;
     font-size: 30px;
-   
     text-align: center;
 }
 ol{
@@ -57,26 +59,22 @@ ol{
     font-style: italic;
     text-align: center;
 }
-img{
+ul img {
+    margin-top: 2%;
+    margin-left: 10%;
     border-radius: 50%;
     filter: contrast();
     border-right: 0px;
-    margin-left: 150px;
-    margin-top: 30px;
+    filter: grayscale();
+}
+figure img {
+    margin-left: 48%;
+    border-radius: 50%;
     filter: grayscale();
 }
 #back {
-    color: black;
     text-decoration: none;
-}
-#unrwa {
-    color-adjust:  rgb(0, 146, 243) ;
-    text-decoration: none;
-}
-a:hover{
-    color: rgb(0, 146, 243);
-}
-
+   }
 #info{
     margin: 20px 20px 0px 0px;
 }
@@ -84,5 +82,4 @@ a:hover{
     height: 72px;
     background-color: rgb(230, 230, 230);
     margin-bottom: 0%;
-
 }
